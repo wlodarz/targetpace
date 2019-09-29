@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <pcToLineNum>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceApp.mc" id="3" lineNum="5" pc="268435456" symbol="initialize"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceApp.mc" id="3" lineNum="6" pc="268435460" symbol="initialize"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceApp.mc" id="4" lineNum="10" pc="268435479" symbol="onStart"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceApp.mc" id="5" lineNum="14" pc="268435484" symbol="onStop"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceApp.mc" id="6" lineNum="18" pc="268435489" symbol="getInitialView"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceApp.mc" id="6" lineNum="19" pc="268435493" symbol="getInitialView"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="7" lineNum="7" pc="268435531" symbol="toPace"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="7" lineNum="8" pc="268435543" symbol="toPace"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="7" lineNum="9" pc="268435550" symbol="toPace"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="7" lineNum="10" pc="268435560" symbol="toPace"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="9" lineNum="22" pc="268435564" symbol="initialize"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="9" lineNum="23" pc="268435568" symbol="initialize"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="9" lineNum="24" pc="268435586" symbol="initialize"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="9" lineNum="25" pc="268435599" symbol="initialize"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="9" lineNum="26" pc="268435612" symbol="initialize"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="31" pc="268435626" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="32" pc="268435630" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="35" pc="268435649" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="36" pc="268435672" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="39" pc="268435718" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="40" pc="268435741" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="43" pc="268435787" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="44" pc="268435810" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="47" pc="268435856" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="48" pc="268435879" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="52" pc="268435925" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="53" pc="268435968" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="54" pc="268435992" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="55" pc="268436014" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="56" pc="268436038" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="59" pc="268436060" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="10" lineNum="60" pc="268436112" symbol="onLayout"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="67" pc="268436116" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="68" pc="268436120" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="69" pc="268436120" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="70" pc="268436120" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="71" pc="268436120" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="72" pc="268436120" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="74" pc="268436127" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="76" pc="268436134" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="77" pc="268436145" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="78" pc="268436158" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="79" pc="268436168" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="82" pc="268436178" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="83" pc="268436209" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="84" pc="268436222" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="85" pc="268436241" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="86" pc="268436262" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="87" pc="268436276" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="88" pc="268436306" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="89" pc="268436316" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="90" pc="268436332" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="92" pc="268436389" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="11" lineNum="96" pc="268436443" symbol="compute"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="101" pc="268436454" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="103" pc="268436458" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="106" pc="268436465" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="109" pc="268436508" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="111" pc="268436532" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="112" pc="268436559" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="114" pc="268436586" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="115" pc="268436610" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="116" pc="268436627" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="118" pc="268436654" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="119" pc="268436671" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="123" pc="268436698" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="124" pc="268436723" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="125" pc="268436751" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="127" pc="268436827" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="12" lineNum="130" pc="268436841" symbol="onUpdate"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="13" lineNum="133" pc="268436862" symbol="onTimerLap"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="13" lineNum="134" pc="268436866" symbol="onTimerLap"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceView.mc" id="13" lineNum="135" pc="268436885" symbol="onTimerLap"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceBackground.mc" id="15" lineNum="9" pc="268436916" symbol="initialize"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceBackground.mc" id="15" lineNum="10" pc="268436920" symbol="initialize"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceBackground.mc" id="15" lineNum="14" pc="268436941" symbol="initialize"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceBackground.mc" id="16" lineNum="17" pc="268436962" symbol="setColor"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceBackground.mc" id="16" lineNum="18" pc="268436966" symbol="setColor"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceBackground.mc" id="17" lineNum="21" pc="268436977" symbol="draw"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceBackground.mc" id="17" lineNum="22" pc="268436981" symbol="draw"/>
+        <entry filename="/home/wlodarz/eclipse-workspace/negativepace/source/negativepaceBackground.mc" id="17" lineNum="23" pc="268437013" symbol="draw"/>
+        <entry filename="Rez" id="23" lineNum="15" pc="268437026" symbol="MainLayout"/>
+        <entry filename="Rez" id="23" lineNum="17" pc="268437038" symbol="MainLayout"/>
+        <entry filename="Rez" id="23" lineNum="18" pc="268437051" symbol="MainLayout"/>
+        <entry filename="Rez" id="23" lineNum="20" pc="268437064" symbol="MainLayout"/>
+        <entry filename="Rez" id="23" lineNum="21" pc="268437088" symbol="MainLayout"/>
+        <entry filename="Rez" id="23" lineNum="22" pc="268437251" symbol="MainLayout"/>
+        <entry filename="Rez" id="23" lineNum="24" pc="268437414" symbol="MainLayout"/>
+        <entry filename="Rez" id="24" lineNum="33" pc="268437452" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="24" lineNum="36" pc="268437464" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="24" lineNum="37" pc="268437488" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="24" lineNum="38" pc="268437621" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="24" lineNum="40" pc="268437754" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="25" lineNum="49" pc="268437792" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="25" lineNum="52" pc="268437804" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="25" lineNum="53" pc="268437828" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="25" lineNum="54" pc="268437961" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="25" lineNum="56" pc="268438094" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="26" lineNum="65" pc="268438132" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="26" lineNum="68" pc="268438144" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="26" lineNum="69" pc="268438168" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="26" lineNum="70" pc="268438301" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="26" lineNum="72" pc="268438434" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="81" pc="268438472" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="27" lineNum="84" pc="268438484" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="27" lineNum="85" pc="268438508" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="27" lineNum="86" pc="268438641" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="27" lineNum="88" pc="268438774" symbol="BottomRightLayout"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry field="true" id="24" symbol="mLapStartTime"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="16" method="true" symbol="TopLeftLayout"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="8389138" symbol="label"/>
+        <entry id="18" method="true" symbol="BottomLeftLayout"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="15" method="true" symbol="MainLayout"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="25" symbol="mCurrentLap"/>
+        <entry field="true" id="8389130" symbol="mColor"/>
+        <entry id="8389131" method="true" symbol="setColor"/>
+        <entry field="true" id="21" symbol="mValue"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="20" symbol="AppName"/>
+        <entry id="11" object="true" symbol="negativepaceView"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry field="true" id="22" symbol="mDisplayItem"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry field="true" id="14" symbol="LauncherIcon"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="17" method="true" symbol="TopRightLayout"/>
+        <entry field="true" id="8388734" symbol="elapsedDistance"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389347" symbol="color"/>
+        <entry id="9" object="true" symbol="negativepaceApp"/>
+        <entry id="12" module="true" symbol="Layouts"/>
+        <entry id="19" method="true" symbol="BottomRightLayout"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="10" method="true" symbol="toPace"/>
+        <entry id="13" module="true" symbol="Menus"/>
+        <entry id="8389751" method="true" symbol="onTimerLap"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry field="true" id="23" symbol="mNegativePaces"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
+        <entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
+        <entry endPc="268435563" name="pace" stackId="2" startPc="268435543"/>
+        <entry endPc="268435564" name="speed" stackId="1" startPc="268435531"/>
+        <entry endPc="268436060" name="valueView" stackId="4" startPc="268435925"/>
+        <entry endPc="268436060" name="labelView" stackId="3" startPc="268435925"/>
+        <entry endPc="268436115" name="obscurityFlags" stackId="2" startPc="268435630"/>
+        <entry endPc="268436116" name="dc" stackId="1" startPc="268435626"/>
+        <entry endPc="268436437" name="activityTime" stackId="8" startPc="268436158"/>
+        <entry endPc="268436437" name="activityDistance" stackId="7" startPc="268436158"/>
+        <entry endPc="268436453" name="lap" stackId="2" startPc="268436120"/>
+        <entry endPc="268436453" name="kilometer" stackId="3" startPc="268436120"/>
+        <entry endPc="268436453" name="currentPace" stackId="6" startPc="268436120"/>
+        <entry endPc="268436453" name="lapPace" stackId="5" startPc="268436120"/>
+        <entry endPc="268436453" name="lapDistance" stackId="4" startPc="268436120"/>
+        <entry endPc="268436454" name="info" stackId="1" startPc="268436116"/>
+        <entry endPc="268436861" name="paceSeconds" stackId="5" startPc="268436458"/>
+        <entry endPc="268436861" name="currentPaceString" stackId="2" startPc="268436458"/>
+        <entry endPc="268436861" name="paceMinutes" stackId="4" startPc="268436458"/>
+        <entry endPc="268436861" name="value" stackId="3" startPc="268436458"/>
+        <entry endPc="268436862" name="dc" stackId="1" startPc="268436454"/>
+        <entry endPc="268436961" name="dictionary" stackId="1" startPc="268436920"/>
+        <entry endPc="268436977" name="color" stackId="1" startPc="268436962"/>
+        <entry endPc="268437026" name="dc" stackId="1" startPc="268436977"/>
+        <entry endPc="268437451" name="rez_cmp_local_custom_drawable_25257037149237364920" stackId="4" startPc="268437038"/>
+        <entry endPc="268437451" name="rez_cmp_local_text_value" stackId="6" startPc="268437038"/>
+        <entry endPc="268437451" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268437038"/>
+        <entry endPc="268437451" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268437038"/>
+        <entry endPc="268437451" name="rez_cmp_local_text_label" stackId="5" startPc="268437038"/>
+        <entry endPc="268437452" name="dc" stackId="1" startPc="268437026"/>
+        <entry endPc="268437791" name="rez_cmp_local_custom_drawable_73903902692298358745" stackId="2" startPc="268437464"/>
+        <entry endPc="268437791" name="rez_cmp_local_text_value" stackId="4" startPc="268437464"/>
+        <entry endPc="268437791" name="rez_cmp_local_text_label" stackId="3" startPc="268437464"/>
+        <entry endPc="268437792" name="dc" stackId="1" startPc="268437452"/>
+        <entry endPc="268438131" name="rez_cmp_local_text_value" stackId="4" startPc="268437804"/>
+        <entry endPc="268438131" name="rez_cmp_local_custom_drawable_57477769497963750133" stackId="2" startPc="268437804"/>
+        <entry endPc="268438131" name="rez_cmp_local_text_label" stackId="3" startPc="268437804"/>
+        <entry endPc="268438132" name="dc" stackId="1" startPc="268437792"/>
+        <entry endPc="268438471" name="rez_cmp_local_text_value" stackId="4" startPc="268438144"/>
+        <entry endPc="268438471" name="rez_cmp_local_text_label" stackId="3" startPc="268438144"/>
+        <entry endPc="268438471" name="rez_cmp_local_custom_drawable_26780168717441378421" stackId="2" startPc="268438144"/>
+        <entry endPc="268438472" name="dc" stackId="1" startPc="268438132"/>
+        <entry endPc="268438811" name="rez_cmp_local_text_value" stackId="4" startPc="268438484"/>
+        <entry endPc="268438811" name="rez_cmp_local_custom_drawable_18801280801677975193" stackId="2" startPc="268438484"/>
+        <entry endPc="268438811" name="rez_cmp_local_text_label" stackId="3" startPc="268438484"/>
+        <entry endPc="268438812" name="dc" stackId="1" startPc="268438472"/>
+    </localVars>
+    <annotations/>
+    <dataEntryOffsetMappings>
+        <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry offset="190" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry offset="261" parentId="globals" symbolId="negativepaceApp" type="class"/>
+        <dataEntry offset="332" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="411" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="450" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="481" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="512" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="583" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="614" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="661" parentId="globals" symbolId="negativepaceView" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="initialize" parent="negativepaceApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="negativepaceApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="negativepaceApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getInitialView" parent="negativepaceApp">
+            <documentation>
+                <![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="toPace">
+            <param id="speed"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="negativepaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="negativepaceView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="compute" parent="negativepaceView">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="negativepaceView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onTimerLap" parent="negativepaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="Background">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="setColor" parent="Background">
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="draw" parent="Background">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="TopLeftLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="TopRightLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="BottomLeftLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="BottomRightLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
