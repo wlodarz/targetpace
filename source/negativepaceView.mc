@@ -40,26 +40,31 @@ class negativepaceView extends WatchUi.DataField {
         // Top left quadrant so we'll use the top left layout
         if (obscurityFlags == (OBSCURE_TOP | OBSCURE_LEFT)) {
             View.setLayout(Rez.Layouts.TopLeftLayout(dc));
+            System.println("Layout1");
 
         // Top right quadrant so we'll use the top right layout
         } else if (obscurityFlags == (OBSCURE_TOP | OBSCURE_RIGHT)) {
             View.setLayout(Rez.Layouts.TopRightLayout(dc));
+            System.println("Layout2");
 
         // Bottom left quadrant so we'll use the bottom left layout
         } else if (obscurityFlags == (OBSCURE_BOTTOM | OBSCURE_LEFT)) {
             View.setLayout(Rez.Layouts.BottomLeftLayout(dc));
+            System.println("Layout3");
 
         // Bottom right quadrant so we'll use the bottom right layout
         } else if (obscurityFlags == (OBSCURE_BOTTOM | OBSCURE_RIGHT)) {
             View.setLayout(Rez.Layouts.BottomRightLayout(dc));
+            System.println("Layout4");
 
         // Use the generic, centered layout
         } else {
             View.setLayout(Rez.Layouts.MainLayout(dc));
             var labelView = View.findDrawableById("label");
-            labelView.locY = labelView.locY - 16;
+            labelView.locY = labelView.locY - 32;
             var valueView = View.findDrawableById("value");
-            valueView.locY = valueView.locY + 7;
+            valueView.locY = valueView.locY;
+            System.println("Layout5");
         }
 
         View.findDrawableById("label").setText(Rez.Strings.label);
@@ -80,20 +85,26 @@ class negativepaceView extends WatchUi.DataField {
 		lapPace = 4*60+22;
         // See Activity.Info in the documentation for available information.
         if(info has :elapsedDistance 
+        && info has :averageSpeed
         && info has :currentSpeed
         && info has :elapsedTime){
             if(info.elapsedDistance != null 
             && info.currentSpeed != null
+            && info.averageSpeed != null
             && info.elapsedTime != null){
                 var elapsedDistance = info.elapsedDistance;
                 var elapsedTime = info.elapsedTime;
-                var currentSpeed = info.currentSpeed;
+                var currentSpeed = info.averageSpeed; // currentSpeed;
                 
                 //mValue = info.elapsedDistance / 1000.0f;
                 kilometer = Math.floor(elapsedDistance / 1000);
                 lap = kilometer.toNumber();
                 lapDistance = elapsedDistance - mCurrentLap * 1000;
-                currentPace = speedToPace(currentSpeed);
+                if (currentSpeed > 0) {
+                	currentPace = speedToPace(currentSpeed);
+                } else {
+                	currentPace = 0;
+                }
                 if(lap > mCurrentLap){
                 	System.println("old LAP " + mCurrentLap);
                 	mCurrentLap = lap;
