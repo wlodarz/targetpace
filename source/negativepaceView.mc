@@ -4,7 +4,7 @@ using Toybox.System;
 using Toybox.Math;
 using Toybox.Lang;
 
-function toPace(speed) {
+function speedToPace(speed) {
 	var pace = 0.0;
 	pace = 1000.0 / speed;
 	return pace;
@@ -15,15 +15,21 @@ class negativepaceView extends WatchUi.DataField {
 
     hidden var mValue;
     hidden var mDisplayItem = 0;
-    hidden var mNegativePaces = [ 4.25f, 4.20f, 4.15f, 4.0f ];
+    hidden var mNegativePaces = [ 4*60+25, 4*60+20, 4*60+15, 4*60 ];
     hidden var mLapStartTime; // in seconds
     hidden var mCurrentLap;
+    hidden var mElapsedTime;
+    hidden var mTargetPace;
+    hidden var mCurrentPace;
 
     function initialize() {
         DataField.initialize();
         mValue = 0.0f;
         mLapStartTime = 0;
         mCurrentLap = 0;
+        mElapsedTime = 0;
+        mTargetPace = 0;
+        mCurrentPace = 0;
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -71,34 +77,47 @@ class negativepaceView extends WatchUi.DataField {
     	var lapPace;
     	var currentPace = 0.0;
 
-		lapPace = 4.22;
+		lapPace = 4*60+22;
         // See Activity.Info in the documentation for available information.
-        if(info has :elapsedDistance){
-            if(info.elapsedDistance != null){
-                var activityDistance = info.elapsedDistance;
-                var activityTime = info.elapsedTime;
+        if(info has :elapsedDistance 
+        && info has :currentSpeed
+        && info has :elapsedTime){
+            if(info.elapsedDistance != null 
+            && info.currentSpeed != null
+            && info.elapsedTime != null){
+                var elapsedDistance = info.elapsedDistance;
+                var elapsedTime = info.elapsedTime;
+                var currentSpeed = info.currentSpeed;
                 
                 //mValue = info.elapsedDistance / 1000.0f;
-                kilometer = Math.floor(info.elapsedDistance / 1000);
+                kilometer = Math.floor(elapsedDistance / 1000);
                 lap = kilometer.toNumber();
-                lapDistance = activityDistance - mCurrentLap * 1000;
-                currentPace = toPace(info.currentSpeed);
+                lapDistance = elapsedDistance - mCurrentLap * 1000;
+                currentPace = speedToPace(currentSpeed);
                 if(lap > mCurrentLap){
                 	System.println("old LAP " + mCurrentLap);
                 	mCurrentLap = lap;
-                	mLapStartTime = info.elapsedTime;
-                	System.println("new LAP " + mCurrentLap + " dist " + activityDistance + " at " + mLapStartTime);
+                	mLapStartTime = elapsedTime;
+                	System.println("new LAP " + mCurrentLap + " dist " + elapsedDistance + " at " + mLapStartTime);
                 }
-                System.println("dist " + activityDistance + " time " + activityTime + " speed " + info.currentSpeed);
+                System.println("dist " + elapsedDistance + " time " + elapsedTime + " speed " + currentSpeed);
                 //System.println(mNegativePaces[mCurrentLap] + " " + lapPace);
+                mCurrentLap = lap;
+                mElapsedTime = elapsedTime;
             }
         }
-        mValue = currentPace;
+        if (mCurrentLap < mNegativePaces.size()) {
+        	mTargetPace = mNegativePaces[mCurrentLap];
+        } else {
+        	mTargetPace = 300;
+        }
+        mCurrentPace = currentPace;
     }
 
     // Display the value you computed here. This will be called
     // once a second when the data field is visible.
     function onUpdate(dc) {
+    	var paceFlag = 1;
     
     	var currentPaceString = "0:00";
     	
@@ -108,30 +127,47 @@ class negativepaceView extends WatchUi.DataField {
         // Set the foreground color and value
         var value = View.findDrawableById("value");
         
-        if (getBackgroundColor() == Graphics.COLOR_BLACK) {
-            value.setColor(Graphics.COLOR_WHITE);
+        // determine which value display
+        var elapsedSeconds = mElapsedTime / 1000;
+        paceFlag = elapsedSeconds % 10;
+         
+        // display proper value
+        if (paceFlag >= 5) {
+        	// targetPace
+        	mValue = mTargetPace;
+        	
+        	if (getBackgroundColor() == Graphics.COLOR_BLACK) {
+	            value.setColor(Graphics.COLOR_WHITE);
+        	} else {
+	            value.setColor(Graphics.COLOR_BLACK);
+	        }
+	        View.findDrawableById("label").setText(Rez.Strings.target);
         } else {
-            value.setColor(Graphics.COLOR_GREEN);
-        	if(mValue > 363) {
-            	value.setColor(Graphics.COLOR_RED);
-            }
-            if(mValue < 357) {
-            	value.setColor(Graphics.COLOR_RED);
-            }
+        	// currentPace
+        	mValue = mCurrentPace;
+        	
+        	if (getBackgroundColor() == Graphics.COLOR_BLACK) {
+	            value.setColor(Graphics.COLOR_WHITE);
+        	} else {
+	            value.setColor(Graphics.COLOR_BLUE);
+        		if(mValue > 363) {
+            		value.setColor(Graphics.COLOR_RED);
+            	}
+            	if(mValue < 357) {
+	            	value.setColor(Graphics.COLOR_RED);
+            	}
+        	}
+        	View.findDrawableById("label").setText(Rez.Strings.current);
         }
-
+        
         var paceMinutes = (mValue / 60).toNumber();
         var paceSeconds = (mValue - (paceMinutes * 60)).toNumber();
-        currentPaceString = Lang.format("$1$:$2$", [paceMinutes.format("%d"), paceSeconds.format("%02d")]); 
-
-        value.setText(currentPaceString);
+        var paceString = "";
+        
+        paceString = Lang.format("$1$:$2$", [paceMinutes.format("%d"), paceSeconds.format("%02d")]);
+        value.setText(paceString);
 
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
-    }
-    
-    function onTimerLap() {
-    	mCurrentLap++;
-    	System.println("LAP " + mCurrentLap);
     }
 }

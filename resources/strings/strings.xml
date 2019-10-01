@@ -2,4 +2,6 @@
     <string id="AppName">negativepace</string>
 
     <string id="label">My Value</string>
+    <string id="target">Target</string>
+    <string id="current">Current</string>
 </strings>
